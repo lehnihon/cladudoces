@@ -153,35 +153,29 @@ function template_chooser($template)
 }
 add_filter('template_include', 'template_chooser');
 
-/**
- * CUSTOM POST TYPE
- */
+function register_post_type_fotos(){
+	$singular = 'Foto';
+	$plural = 'Fotos';
+	$labels = array(
+		'name' => $plural,
+		'singular_name' => $singular,
+		'add_new_item' => 'Adicionar nova '.$singular,
+		);
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+        'supports' => array('title', 'editor','thumbnail'),
+        'menu_position' => 5
+		);
 
-function change_post_menu_label() {
-    global $menu;
-    global $submenu;
-    $menu[5][0] = 'Terapeuta';
-    $submenu['edit.php'][5][0] = 'Terapeuta';
-    $submenu['edit.php'][10][0] = 'Adicionar Terapeuta';
-    echo '';
+	register_post_type('fotos',$args);
 }
-function change_post_object_label() {
-        global $wp_post_types;
-        $labels = &$wp_post_types['post']->labels;
-        $labels->name = 'Terapeuta';
-        $labels->singular_name = 'Terapeuta';
-        $labels->add_new = 'Adicionar Terapeuta';
-        $labels->add_new_item = 'Adicionar Terapeuta';
-        $labels->edit_item = 'Editar Terapeuta';
-        $labels->new_item = 'Terapeuta';
-        $labels->view_item = 'Ver Terapeuta';
-        $labels->search_items = 'Procurar Terapeuta';
-        $labels->not_found = 'Terapeuta não encontrado';
-        $labels->not_found_in_trash = 'Sem Terapeutas na lixeira';
+add_action(	'init','register_post_type_fotos');
+function remove_box()
+{
+	remove_post_type_support('fotos', 'editor');
 }
-add_action( 'init', 'change_post_object_label' );
-add_action( 'admin_menu', 'change_post_menu_label' );
-
+add_action("admin_init", "remove_box");
 
 /**
  * Implement the Custom Header feature.

@@ -24,7 +24,7 @@
 <div id="page">
 	<header id="header">
 		<div class="container">
-			<div class="row">
+			<br><div class="row">
 				<div class="col-md-7 col-md-offset-5 logo-center">
 					<div class="row redes">
 						<ul class="redes_sociais_header">
@@ -40,7 +40,7 @@
 				<div class="col-md-4 col-md-offset-4 text-center">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.jpg"; ?>"/></a>
 				</div>
-			</div><!-- .row -->
+			</div><!-- .row --><br>
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3">
 					<div class="menu-responsivo">
@@ -63,7 +63,7 @@
 						</ul>
 					</nav><!-- #site-navigation -->
 				</div>
-			</div>
+			</div><br>
 		</div><!-- .container -->
 	</header><!-- #masthead -->
 
