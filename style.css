@@ -422,7 +422,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     text-align: left; }
     #page #footer div.footer-content {
       padding: 50px 0;
-      background-color: #8f0351;
+      background-image: url("images/background-footer.jpg");
       color: white; }
       #page #footer div.footer-content ul {
         padding: 0;
