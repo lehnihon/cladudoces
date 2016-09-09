@@ -3,9 +3,9 @@ get_header(); ?>
 
 <div id="content">
 	<section id="contato">
-		<h1 class="title-full small"><div class="animated bounceIn">Contato</div></h1>
-		<h4>Entre em contato com as melhore terapeutas de Massagem Tântrica de São Paulo</h4>
 		<div class="container">
+			<h1 class="title-full small"><div class="animated bounceIn">Contato</div></h1>
+			<h4>Entre em contato com a Cladu Doces</h4><br><br>
 			<div class="row">
 				<div class="col-md-6 text-left">
 					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 6 ); } ?>
@@ -21,7 +21,7 @@ get_header(); ?>
 					<p>
 						11 1234-5678
 					</p>
-					<p>contato@terapeutastantricas.com.br</p>							
+					<p>contato@cladudoces.com.br</p>							
 					</div>
 				</div>
 			</div>	
