@@ -54,10 +54,10 @@ receitas grande quantidade de amor, recheada com dedicação e coberta de qualid
 					
 					<div class="row">
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-3.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-1.jpg"; ?>"/>
 						</div>
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-3.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-2.jpg"; ?>"/>
 						</div>
 					</div>
 					<div class="fotos-sobre row">	
@@ -65,7 +65,7 @@ receitas grande quantidade de amor, recheada com dedicação e coberta de qualid
 							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-3.jpg"; ?>"/>
 						</div>
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-3.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-4.jpg"; ?>"/>
 						</div>
 					</div>
 			

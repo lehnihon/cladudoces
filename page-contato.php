@@ -18,9 +18,7 @@ get_header(); ?>
 					<p>
 						Rua Silveira Martins 160 - Conjunto 2 - São Paulo - SP
 					</p>
-					<p>
-						11 1234-5678
-					</p>
+
 					<p>contato@cladudoces.com.br</p>							
 					</div>
 				</div>
