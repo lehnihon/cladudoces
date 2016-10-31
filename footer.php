@@ -4,7 +4,8 @@
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 text-center">
 						<h2 class="redes">Novidades da Cladu Doces</h2>
-						<h5>Receba todas as nossas novidades e promoções</h5>	
+						<h5>Receba todas as nossas novidades e promoções</h5>
+						<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 2 ); } ?>
 					</div>
 				</div><!-- .row -->
 			</div><!-- .container -->			

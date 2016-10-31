@@ -127,7 +127,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: #606060; }
   #page .input-receba {
     border: 0;
-    padding: 5px; }
+    padding: 10px;
+    width: 350px;
+    border-radius: 3px; }
   #page .input-contato {
     border: 0;
     padding: 5px;
@@ -279,7 +281,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div#content section#servicos h4, #page div#content section#servicos p {
       margin: 15px 0; }
   #page div#content section#fotos-sobre {
-    padding: 80px 0;
+    padding-top: 25px;
+    padding-bottom: 80px;
     background-color: white; }
     #page div#content section#fotos-sobre ul {
       list-style-type: none;
@@ -335,7 +338,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         content: "\2713 \00a0";
         font-weight: bold; }
   #page div#content section#sobre {
-    padding: 80px;
+    padding-top: 25px;
+    padding-bottom: 80px;
     background-color: white; }
     #page div#content section#sobre ul {
       list-style-type: none;
@@ -358,7 +362,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       text-align: left;
       padding: 25px 35px; }
   #page div#content section#contato {
-    padding: 80px;
+    padding-top: 25px;
+    padding-bottom: 80px;
     background-color: white; }
     #page div#content section#contato div.quadro {
       padding: 25px 50px;

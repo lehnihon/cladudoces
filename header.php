@@ -49,7 +49,7 @@
 						</button>
 						<ul class="dropdown-menu">
 							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">A Claro Doces</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">A Cladu Doces</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."nossos-doces"; ?>">Nossos Doces</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
 						</ul>								
@@ -57,7 +57,7 @@
 					<nav>
 						<ul class="menu-principal clearfix">
 							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">A Claro Doces</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">A Cladu Doces</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."nossos-doces"; ?>">Nossos Doces</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
 						</ul>

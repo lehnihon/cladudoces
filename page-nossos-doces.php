@@ -8,7 +8,7 @@ get_header(); ?>
 			<h1 class="title-full small"><div class="animated bounceIn">Nossos Doces</div></h1>
 			<h4>Confira as fotos dos doces que produzimos com muito carinho e qualidade.</h4><br><br>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-8 col-md-offset-2">
 					<?php 
 					$args = array('posts_per_page' => 20,'post_type' => 'fotos');
 					$query = new WP_Query( $args ); 
@@ -55,8 +55,8 @@ get_header(); ?>
 <script>
 $('.slider1').bxSlider({
     slideWidth: 2000,
-    minSlides: 4,
-    maxSlides: 4,
+    minSlides: 3,
+    maxSlides: 3,
     infiniteLoop: false,
     slideMargin: 10,
     controls:false,
